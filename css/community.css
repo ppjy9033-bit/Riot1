@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* reset */
+* { margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; }
+body { background-color: #000; color: #fff; }
+
+/* wrap */
+#wrap { width: 450px; margin: 0 auto; padding: 40px 20px; }
+
+/* header */
+.back { font-size: 21px; float: left; margin-right: 20px; }
+.main { font-size: 24px; }
+.opt { font-size: 20px; margin-top: 30px; }
+.opt1 { float: left; padding-bottom: 4px; border-bottom: 3px solid; 
+  border-image: linear-gradient(to left, #000, #e44444, #000 ) 1; }
+.opt2 { margin-left: 40px; float: left; }
+.opt3 { margin-left: 40px; float: left; }
+
+/* srh */
+.srh1 { margin-top: 30px; width: 450px; height: 45px; border: none; border-radius: 12px; 
+padding-left: 16px; font-size: 16px; line-height: 22.5px; color: #4e4e4e;}
+
+/* online */
+.online { font-size: 14px; margin-top: 30px; }
+.on_box1 { height: 120px; margin-top: 30px; font-size: 14px; }
+.on_box2 { height: 120px; margin-top: 30px; font-size: 14px; color: #d8d8d8; }
+.pro1 { background-color: #3f3f3f; height: 85px; border-radius: 10px 10px 0 0; }
+.pro1_1 { float: left; margin-left: 15px; margin-top: 13px; }
+.circle { float: right; width: 15px; height: 15px; background-color: #148C09; border-radius: 50%; 
+margin-right: 370px; margin-top: -15px;}
+.circle1 { float: right; width: 15px; height: 15px; background-color: #2c78f9; border-radius: 50%; 
+margin-right: 370px; margin-top: -15px;}
+.circle2 { float: right; width: 15px; height: 15px; background-color: #979797; border-radius: 50%; 
+margin-right: 370px; margin-top: -15px;}
+.circle3 { float: right; width: 15px; height: 15px; background-color: #e4b425; border-radius: 50%; 
+margin-right: 370px; margin-top: -15px;}
+.circle4 { float: right; width: 15px; height: 15px; background-color: #f71e1e; border-radius: 50%; 
+margin-right: 370px; margin-top: -15px;}
+
+.nick1 { margin-left: 95px; padding-top: 5px; line-height: 45px; }
+.play1 { margin-left: 95px; }
+
+.use1 { background-color: #212121; height: 35px; border-radius: 0 0 10px 10px; }
+.use1_1 { margin-left: 15px; padding-top: 10px; }

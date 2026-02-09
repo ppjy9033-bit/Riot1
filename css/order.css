@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* reset */
+* { margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; }
+body { width: 450px; margin: 0 auto; }
+
+/* wrap */
+#wrap { background-color: #000; width: 450px; border: 1px solid #fff; color: #fff; border: 1px solid #fff; overflow: hidden; }
+
+/* header */
+.head { width: 450px; height: 80px; font-size: 8px; line-height: 95px; }
+.Logo { padding-left: 20px; }
+.mon1 { background-color: #555; padding: 3px 10px; border-radius: 20px; margin-left: 95px; }
+.mon1 img { margin-right: 10px; vertical-align: middle; }
+.mon2 { background-color: #555; padding: 3px 10px; border-radius: 20px; margin-left: 10px; }
+.mon2 img { margin-right: 10px; vertical-align: middle; }
+.icn1 { margin-left: 20px; }
+.icn2 { margin-left: 10px; }
+
+/* section1 */
+.imgBg { background: url("../images/backimage1.png"); width: 450px; height: 83px; }
+.shopMenu { font-size: 12px; color: #777; background-color: #fff; float: left; padding: 5px 30px; border-radius: 3px; margin-left: 80px; margin-top: 32px; }
+.shopSearch { font-size: 12px; color: #888; height: 24px; width: 180px; padding-left: 15px; margin-left: 30px; line-height: 24px; border-radius: 13px; margin-top: 32px; border-style: none; }
+
+.menu { font-size: 12px; text-align: center; }
+.menu1 { float: left; padding: 5px 61px; border-right: 1px solid #fff; }
+.menu2 { color: #9b9b9b; float: left; padding: 5px 61px; border-right: 1px solid #fff; }
+.menu3 { color: #9b9b9b; float: left; padding: 5px 61px; }
+
+/* section2 */
+.sec2 { margin-top: 60px; }
+.name1 { font-size: 22px; font-weight: bold; text-align: center; margin-bottom: 50px; }
+.name1 img { vertical-align: middle; margin-right: 12px; }
+.pos1_1 { margin-bottom: 60px; }
+.posi1 { margin-left: -50px; margin-top: 20px; float: left; }
+.posi2 { float: left; margin-left: 21px; }
+.posi3 { margin-right: -50px; margin-top: 20px; float: right; }
+
+.name2 { font-size: 22px; font-weight: bold; text-align: center; margin-bottom: 50px; margin-top: 300px; }
+.name2 img { vertical-align: middle; margin-right: 12px; }
+.pos2_1 { margin-bottom: 60px; }
+.posi4 { margin-left: -50px; margin-top: 20px; float: left; }
+.posi5 { float: left; margin-left: 21px; }
+.posi6 { margin-right: -50px; margin-top: 20px; float: right; }
+
+.name3 { font-size: 22px; font-weight: bold; text-align: center; margin-bottom: 50px; margin-top: 300px; }
+.name3 img { vertical-align: middle; margin-right: 12px; }
+.pos3_1 { margin-bottom: 60px; }
+.posi7 { margin-left: -50px; margin-top: 20px; float: left; }
+.posi8 { float: left; margin-left: 21px; }
+.posi9 { margin-right: -50px; margin-top: 20px; float: right; }
+
+.name4 { font-size: 22px; font-weight: bold; text-align: center; margin-bottom: 50px; margin-top: 300px; }
+.name4 img { vertical-align: middle; margin-right: 12px; }
+.pos4_1 { margin-bottom: 60px; }
+.posi10 { margin-left: -50px; margin-top: 20px; float: left; }
+.posi11 { float: left; margin-left: 21px; }
+.posi12 { margin-right: -50px; margin-top: 20px; float: right; }
+
+.copy { text-align: center; font-size: 12px; color: #bababa; margin-top: 320px; margin-bottom: 50px; }

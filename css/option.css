@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* wrap */
+* { margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; }
+body { width:450px; margin: 0 auto; }
+
+/* header */
+#wrap { background-color: #262626; }
+.header { font-size: 23px; color: #fff; font-style: normal;  height: 50px; 
+background-color: #000; padding-left: 20px; padding-top: 25px; }
+.header p { float: left; }
+.header h2 { margin-left: 30px; }
+
+/* nav */
+.menu { color: #fff; font-size: 18px; }
+.menu img { margin-right: 15px; }
+.me1 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me2 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me3 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me4 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me5 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me6 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me7 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me8 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me9 { padding: 30px 20px; border-bottom: 1px solid #666; }
+.me10 { padding: 30px 20px; }
