@@ -12,11 +12,12 @@ h3 { font-size: 14px; margin-top: 50px; margin-left: 50px; margin-bottom: 20px; 
 #head_log { text-align: center; position: relative; }
 .log_close { font-size: 20px; position: absolute; top: 50px; right: 30px; 
   background-color: #eaeaea; padding: 5px; border-radius: 5px; }
+.log_close:hover { color: #000; background-color: #a1a1a1; }
 .hdln { font-weight: bold; font-size: 20px; text-align: center; margin-top: 50px; }
 
 /* pay */
 .befPay { margin: 0 auto; width: 352px; height: 126px; border: 1px solid #000; border-radius: 15px; }
-.befPay1 { background-color: #fff; height: 63px; border-radius: 15px 15px 0 0; margin: 0 20px; }
+.befPay1 { background-color: #fff; height: 63px; border-radius: 15px 15px 0 0; padding: 0 20px; }
 .RP { color: #474747; font-weight: Bold; font-size: 21px; line-height: 63px; }
 .won { float: right; margin-top: -39px; }
 .befPay2 { background-color: #e6e6e6; height: 63px; border-radius: 0 0 15px 15px; }
@@ -46,8 +47,10 @@ color: #474747; font-weight: normal; font-size: 21px; line-height: 63px; }
 .payKind { border-top: 1px solid #d1d1d1; margin-top: 210px; padding-bottom: 50px; }
 .payKind1 { font-size: 13px; font-weight: bold; text-align: center; }
 .kd1 { margin-left: 45px; float: left; border: 2px solid #c9c9c9; width: 110px; height: 28px; line-height: 28px; border-radius: 10px; }
-.kd2 { margin-left: 9px; float: left; border: 2px solid #c9c9c9; width: 110px; height: 28px; line-height: 28px; border-radius: 10px; }
-.kd3 { margin-right: 45px; float: right; border: 2px solid #c9c9c9; width: 110px; height: 28px; line-height: 28px; border-radius: 10px; }
+.kd2 { margin-left: 9px; float: left; color: #aaaaaa; border: 2px solid #c9c9c9; width: 110px; height: 28px; line-height: 28px; border-radius: 10px; }
+.kd2:hover { border: 2px solid #9e9e9e; background-color: #cccccc; color: #fff; }
+.kd3 { margin-right: 45px; float: right; color: #aaaaaa; border: 2px solid #c9c9c9; width: 110px; height: 28px; line-height: 28px; border-radius: 10px; }
+.kd3:hover { border: 2px solid #9e9e9e; background-color: #cccccc; color: #fff; }
 
 .payKind2 { margin: 0 auto; margin-top: 70px; border: 2px solid #c9c9c9; width: 352px; 
   padding: 12px 0; line-height: 24px; font-size: 14px; }
@@ -58,3 +61,4 @@ input { margin-right: 5px; }
   color: #666; background-color: #eaeaea; 
   border: 2px solid #999; border-radius: 15px; 
   margin-left: 188px; margin-top: 80px; }
+.log_next:hover { color: #000; background-color: #a1a1a1; border: 2px solid #5c5c5c; }

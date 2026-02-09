@@ -10,6 +10,7 @@ a { text-decoration: none; color: inherit; }
 /* head_log */
 #head_log { text-align: center; padding-top: 50px; position: relative; }
 .log_close { font-size: 20px; position: absolute; top: 50px; right: 30px; background-color: #eaeaea; padding: 5px; border-radius: 5px; }
+.log_close:hover { color: #000; background-color: #a1a1a1; }
 
 /* login */
 h2 { font-size: 18px; text-align: center; margin-top: 35px; }
@@ -26,6 +27,7 @@ h2 { font-size: 18px; text-align: center; margin-top: 35px; }
   color: #666; background-color: #eaeaea; 
   border: 2px solid #999; border-radius: 15px; 
   margin-left: 188px; margin-top: 200px; }
+.log_next:hover { color: #000; background-color: #a1a1a1; border: 2px solid #5c5c5c; }
 
 /* nav */
 #wrap_nav { margin-left: 40px; margin-top: 40px; text-align: center; }
