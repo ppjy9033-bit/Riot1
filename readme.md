@@ -111,6 +111,7 @@ RIOT
 │  └─ zed.png
 ├─ js
 │  └─ jquery-3.1.1.min.js
+│  └─ script.js
 ├─ index.html
 ├─ community.html
 ├─ login.html
