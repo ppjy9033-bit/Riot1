@@ -31,7 +31,7 @@ h2 { font-size: 18px; text-align: center; margin-top: 40px; }
 #log_next:hover { color: #000; background-color: #a1a1a1; border: 2px solid #5c5c5c; }
 
 /* nav */
-#wrap_nav { margin-left: 15px; margin-top: 60px; text-align: center; display: flex; justify-content: center; list-style: none; gap: 20px; }
+#wrap_nav ul { margin-left: 15px; margin-top: 60px; text-align: center; display: flex; justify-content: center; list-style: none; gap: 20px; }
 .Google { line-height: 60px; }
 .Apple { line-height: 52px; }
 

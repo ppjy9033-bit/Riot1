@@ -11,7 +11,7 @@ body { background: url("../images/backimage2.jpg") no-repeat center; width: 100%
 /* header */
 .log_logo { text-align: center; padding-top: 55px; }
 .txt1 { font-size: 20px; text-align: center; color: #fff; padding-top: 40px; }
-.box { display: flex; justify-content: center; list-style: none; padding: 0; padding-top: 40px; }
+.box ul { display: flex; justify-content: center; list-style: none; padding: 0; padding-top: 40px; }
 .box1 { border-radius: 5px; background-color: #e4e4e4; width: 28px; height: 5px; margin-right: 3px; }
 #box1 { background-color: #EB0029; }
 
