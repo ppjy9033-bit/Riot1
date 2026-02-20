@@ -12,6 +12,7 @@ hr { margin-top: 295px; width: 398px; margin-left: 20px; }
 /* header */
 #head { width: 450px; height: 83px; background: url("../images/backimage1.png"); position: relative; }
 .icn_hd { position: absolute; top: 34px; right: 18px;}
+.icn0 { margin-right: 13px; }
 .icn1 { margin-right: 13px; }
 
 /* section1 */

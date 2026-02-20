@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* reset */
+* { margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; }
+body { display: flex; justify-content: center; align-items: center; width: 100%; text-align: center; 
+  background-color: #000; color: #fff; padding: 60px 0; margin: 0 auto; }
+h2 { font-size: 22px; text-align: left; }
+
+/* container */
+.log_logo { margin-bottom: 50px; }
+.container_box { border: 2px solid #fff; padding: 28px 90px; line-height: 70px; border-radius: 20px;}
+.logout { font-size: 16px; font-weight: bold; color: #fff; background-color: #EB0029; padding: 5px 80px; 
+border: none; border-radius: 7px; cursor: pointer; }
+.logout:hover { background-color: #660011; }

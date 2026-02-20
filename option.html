@@ -10,6 +10,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/Riot-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/Riot-32x32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="images/Riot-192x192.png">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
   <div id="wrap">
@@ -18,6 +20,7 @@
       <h2>설정</h2> 
     </div><!-- header -->
     <nav class="menu">
+      <li class="me0"><a href="mypage.html"><img src="images/icn0.png" alt="icn1">내 정보</a></li>
       <li class="me1"><a href="community.html"><img src="images/icn1.png" alt="icn1">커뮤니티</a></li>
       <li class="me2"><a href="#"><img src="images/icn2.png" alt="icn2">다중인증</a></li>
       <li class="me3"><a href="#"><img src="images/icn3.png" alt="icn3">QR 코드 스캔하기</a></li>
@@ -26,8 +29,8 @@
       <li class="me6"><a href="#"><img src="images/icn6.png" alt="icn6">언어</a></li>
       <li class="me7"><a href="#"><img src="images/icn7.png" alt="icn7">법적 고지</a></li>
       <li class="me8"><a href="#"><img src="images/icn8.png" alt="icn8">도움말 및 의견 보내기</a></li>
-      <li class="me9"><a href="#"><img src="images/icn9.png" alt="icn9">회원탈퇴</a></li>
-      <li class="me10"><a href="login.html"><img src="images/icn10.png" alt="icn10">로그아웃</a></li>
+      <li class="me9" id="signOut" class="btn btn-danger btn-sm mt-5"><a href="#"><img src="images/icn9.png" alt="icn9">회원탈퇴</a></li>
+      <li class="me10" id="logoutButton"><a href="#"><img src="images/icn10.png" alt="icn10">로그아웃</a></li>
     </nav>
   </div><!-- wrap -->
 </body>

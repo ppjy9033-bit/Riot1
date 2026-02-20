@@ -10,41 +10,38 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/Riot-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/Riot-32x32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="images/Riot-192x192.png">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
   <div id="wrap">
     <div class="header">
-      <p class="log_logo"><img src="images/Untitled-1.png" alt="logo"></p>
+      <p class="log_logo"><a href="login.html"><img src="images/Untitled-1.png" alt="logo"></a></p>
       <h2 class="txt1">계정 생성</h2>
       <nav class="box">
         <li id="box1" class="box1"></li>
         <li class="box1"></li>
         <li class="box1"></li>
         <li class="box1"></li>
-        <li class="box1"></li>
-        <li class="box1"></li>
       </nav>
     </div>
     <div class="agree">
-      <h4 class="ag_txt">서비스 약관에 동의해 주세요</h4>
-      <div class="agrees">
-        <div class="agree1">
-          <input type="checkbox" id="check1" name="txt_1" value="txt1_1">
-          <label for="check1"><span class="boxes"></span><span class="tt">라이엇 게임즈 서비스 약관</span>에 동의<img src="images/agree.png" alt="약관" class="img1"></label>
+      <h4 class="ag_txt">회원가입 정보 입력</h4>
+      <form action="login" method="post" class="login_form">
+        <div>
+          <label for="name" class="form-label">성명</label>
+          <input type="text" id="log_name" class="log_name" placeholder="이름">
         </div>
-        <div class="agree2">
-          <input type="checkbox" id="check2" name="txt_2" value="txt2_1">
-          <label for="check2"><span class="boxes"></span><span class="tt">개인정보 수집 및 이용</span>에 동의<img src="images/agree.png" alt="약관" class="img2"></label>
+        <div>
+          <label for="email" class="form-label">아이디</label>
+          <input type="email" id="log_id" class="log_id" placeholder="아이디">
         </div>
-        <div class="agree3">
-          <input type="checkbox" id="check3" name="txt_3" value="txt3_1">
-          <label for="check3"><span class="boxes"></span><span class="tt">개인정보 국외 이전</span>에 동의<img src="images/agree.png" alt="약관" class="img3"></label>
+        <div>
+          <label for="password" class="form-label">비밀번호</label>
+          <input type="password" id="log_pwd" class="log_pwd" placeholder="비밀번호">
         </div>
-      </div>
-      <div class="txt">
-        약관 동의 시 사용자의 개인정보는 본 회사로 부터 약 2년간<br>보관함에 동의합니다.
-      </div>
-      <p class="log_next"><a href="login.html">→</a></p>
+        <button id="signButton">회원 가입</button>
+      </form>
     </div>
     <div class="fnb">
       <p class="fnb_1">
