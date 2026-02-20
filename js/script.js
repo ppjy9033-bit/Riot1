@@ -19,7 +19,7 @@ $(function() {
             }
         });
     }
-  
+    
     // --- 2. 로그인 로직 ---
     const loginBtn = document.getElementById('log_next');
     if (loginBtn) {

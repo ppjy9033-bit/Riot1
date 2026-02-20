@@ -19,25 +19,27 @@
       <p class="log_logo"><a href="login.html"><img src="images/Untitled-1.png" alt="logo"></a></p>
       <h2 class="txt1">계정 생성</h2>
       <nav class="box">
-        <li id="box1" class="box1"></li>
-        <li class="box1"></li>
-        <li class="box1"></li>
-        <li class="box1"></li>
+        <ul>
+          <li id="box1" class="box1"></li>
+          <li class="box1"></li>
+          <li class="box1"></li>
+          <li class="box1"></li>
+        </ul>
       </nav>
     </div>
     <div class="agree">
-      <h4 class="ag_txt">회원가입 정보 입력</h4>
+      <h3 class="ag_txt">회원가입 정보 입력</h3>
       <form action="login" method="post" class="login_form">
         <div>
-          <label for="name" class="form-label">성명</label>
+          <label for="log_name" id="form-name">성명</label>
           <input type="text" id="log_name" class="log_name" placeholder="이름">
         </div>
         <div>
-          <label for="email" class="form-label">아이디</label>
+          <label for="log_id" id="form-id">아이디</label>
           <input type="email" id="log_id" class="log_id" placeholder="아이디">
         </div>
         <div>
-          <label for="password" class="form-label">비밀번호</label>
+          <label for="log_pwd" id="form-pwd">비밀번호</label>
           <input type="password" id="log_pwd" class="log_pwd" placeholder="비밀번호">
         </div>
         <button id="signButton">회원 가입</button>
